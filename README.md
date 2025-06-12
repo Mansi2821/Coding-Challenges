@@ -12,6 +12,6 @@ This repository contains my daily coding challenge solutions.
 
 | Difficulty | Problems Solved |
 |------------|-----------------|
-| Easy       | 1               |
-| Medium     | 1               |
+| Easy       | 2               |
+| Medium     | 3               |
 | Hard       | 0               |
