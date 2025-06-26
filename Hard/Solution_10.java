@@ -10,7 +10,7 @@
 // Output: false
 // Explanation: "a" does not match the entire string "aa".
 
-class Solution {
+class Solution_10 {
     public boolean isMatch(String s, String p) {
         int m = s.length();
         int n = p.length();
