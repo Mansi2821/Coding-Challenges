@@ -12,7 +12,7 @@
 
 import java.util.HashMap;
 
-class Solution {
+class Solution_383 {
     public boolean canConstruct(String ransomNote, String magazine) {
         HashMap<Character, Integer> magazineLetters = new HashMap<>();
         

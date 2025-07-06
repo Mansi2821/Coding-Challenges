@@ -38,7 +38,7 @@
 
 
 
-class Solution {
+class reverseWords {
     public String reverseWords(String s) {
         // Trim leading and trailing spaces
         String trimmed = s.trim();
