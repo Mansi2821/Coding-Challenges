@@ -1,5 +1,6 @@
 import java.util.*;
 import java.util.List;
+import java.util.LinkedList;
 
 // Given the heads of two singly linked-lists headA and headB, return the node at which the two lists intersect. If the two linked lists have no intersection at all, return null.
 
