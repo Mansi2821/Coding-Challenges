@@ -14,7 +14,7 @@
 
 import java.util.*;
 
-class Solution {
+class Solution_17 {
   public List<String> letterCombinations(String digits) {
     if (digits.isEmpty())
       return new ArrayList<>();

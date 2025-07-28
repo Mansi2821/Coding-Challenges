@@ -13,7 +13,7 @@
 import java.util.Arrays;
 import java.util.Comparator;
 
-class Solution {
+class Solution_179 {
     public String largestNumber(int[] nums) {
         String[] strs = new String[nums.length];
         for (int i = 0; i < nums.length; i++) {

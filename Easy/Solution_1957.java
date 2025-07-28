@@ -18,7 +18,7 @@
 
 
 
-class Solution {
+class Solution_1957 {
   public String makeFancyString(String s) {
     StringBuilder sb = new StringBuilder();
     for (char c : s.toCharArray())
