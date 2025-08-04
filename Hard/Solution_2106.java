@@ -19,7 +19,7 @@
 
 
 
-class Solution {
+class Solution_2106 {
   public int maxTotalFruits(int[][] fruits, int startPos, int k) {
     final int maxRight = Math.max(startPos, fruits[fruits.length - 1][0]);
     int ans = 0;
