@@ -30,41 +30,41 @@ import java.util.LinkedList;
 // - Note that the intersected node's value is not 1 because the nodes with value 1 in A and B (2nd node in A and 3rd node in B) are different node references. In other words, they point to two different locations in memory, while the nodes with value 8 in A and B (3rd node in A and 4th node in B) point to the same location in memory. 
 
 public class Solution_160 {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        if (headA == null || headB == null) {
-            return null;
-        }
+    // public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    //     if (headA == null || headB == null) {
+    //         return null;
+    //     }
 
-        // Calculate the lengths of both lists
-        int lenA = getLength(headA);
-        int lenB = getLength(headB);
+    //     // Calculate the lengths of both lists
+    //     int lenA = getLength(headA);
+    //     int lenB = getLength(headB);
 
-        // Move the longer list's head forward by the difference in lengths
-        while (lenA > lenB) {
-            headA = headA.next;
-            lenA--;
-        }
+    //     // Move the longer list's head forward by the difference in lengths
+    //     while (lenA > lenB) {
+    //         headA = headA.next;
+    //         lenA--;
+    //     }
 
-        while (lenB > lenA) {
-            headB = headB.next;
-            lenB--;
-        }
+    //     while (lenB > lenA) {
+    //         headB = headB.next;
+    //         lenB--;
+    //     }
 
-        // Now traverse both lists until the intersection is found
-        while (headA != headB) {
-            headA = headA.next;
-            headB = headB.next;
-        }
+    //     // Now traverse both lists until the intersection is found
+    //     while (headA != headB) {
+    //         headA = headA.next;
+    //         headB = headB.next;
+    //     }
 
-        return headA;
-    }
+    //     return headA;
+    // }
 
-    private int getLength(ListNode head) {
-        int length = 0;
-        while (head != null) {
-            length++;
-            head = head.next;
-        }
-        return length;
-    }
+    // private int getLength(ListNode head) {
+    //     int length = 0;
+    //     while (head != null) {
+    //         length++;
+    //         head = head.next;
+    //     }
+    //     return length;
+    // }
 }
