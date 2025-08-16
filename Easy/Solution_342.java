@@ -14,7 +14,7 @@
 // Output: false
 
 
-class Solution {
+class Solution_342 {
   public boolean isPowerOfFour(int n) {
     // Why (4^n - 1) % 3 == 0?
     // (4^n - 1) = (2^n - 1)(2^n + 1) and 2^n - 1, 2^n, 2^n + 1 are
