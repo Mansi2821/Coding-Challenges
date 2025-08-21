@@ -14,7 +14,7 @@ import java.util.*;
 // Output: 17
 // Explanation: The optimal subarray here is [2,4,5,6].
 
-class Solution {
+class Solution_1695 {
   public int maximumUniqueSubarray(int[] nums) {
     int ans = 0;
     int score = 0;
