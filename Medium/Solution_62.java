@@ -19,7 +19,7 @@ import java.util.Arrays;
 // 2. Down -> Down -> Right
 // 3. Down -> Right -> Down
 
-class Solution {
+class Solution_62 {
   public int uniquePaths(int m, int n) {
     // dp[i][j] := the number of unique paths from (0, 0) to (i, j)
     int[][] dp = new int[m][n];
