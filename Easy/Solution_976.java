@@ -16,7 +16,7 @@ import java.util.*;
 // As we cannot use any three side lengths to form a triangle of non-zero area, we return 0.
 
 
-class Solution {
+class Solution_976 {
   public int largestPerimeter(int[] nums) {
     Arrays.sort(nums);
 
